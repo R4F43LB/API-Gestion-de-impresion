@@ -9,4 +9,4 @@ Authors
 Description
 -----------
 
-This repository contains code for the GLC API. GLC customers will be able to request the printing of a card by consuming a web service.
+This repository contains MongoDB, GraphQL and JavaScript code for the GLC API. GLC customers will be able to request the printing of a card by consuming a web service.
