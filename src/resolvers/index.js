@@ -1,4 +1,4 @@
-// by Rafael Balestrini 25/11/202
+// by Rafael Balestrini 25/11/2024
 // This file combine our resolvers into a single JavaScript module. While this isn’t
 // strictly necessary, it's a good pattern to follow as this application and its
 // resolvers schemas grow.
