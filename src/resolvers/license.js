@@ -1,4 +1,4 @@
-// by Rafael Balestrini 25/11/20
+// by Rafael Balestrini 25/11/2024
 // Code needed to resolve the users and status info for a license when requested
 
 const appCons = require('../constants'); //Our app constants
