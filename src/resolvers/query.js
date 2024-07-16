@@ -1,4 +1,4 @@
-// by Rafael Balestrini 25/11/20
+// by Rafael Balestrini 25/11/2020
 // Code needed when we want to read the data with our API.
 
 const {AuthenticationError, ForbiddenError} = require('apollo-server-express');
