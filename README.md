@@ -13,4 +13,4 @@ This repository provides a step-by-step guide to set up a GraphQL web service us
 
 Prerequisites:
 * Node.js and npm (or yarn) installed on your system. 
-* Basic understanding of GraphQL concepts (queries, mutations, schemas). 
+* Basic understanding of GraphQL concepts (queries, mutations, schemas).
