@@ -20,6 +20,10 @@ This repository provides a step-by-step guide to set up a GraphQL web service us
 ```bash
 git clone https://github.com/R4F43LB/Print-Management-API.git
 ```
+... and go there
+```bash
+cd Print-Management-API
+```
 2. Install dependencies:
 3. Define your Schema:
 4. Implement Resolvers:
