@@ -25,6 +25,9 @@ git clone https://github.com/R4F43LB/Print-Management-API.git
 cd Print-Management-API
 ```
 2. Install dependencies:
+```bash
+npm install 
+```
 3. Define your Schema:
 4. Implement Resolvers:
 5. Start the Server:
