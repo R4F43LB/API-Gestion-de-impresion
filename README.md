@@ -25,9 +25,14 @@ git clone https://github.com/R4F43LB/Print-Management-API.git
 cd Print-Management-API
 ```
 2. Install dependencies:
+The code was formatted with Prettier and it is highly recommended installing globally
 ```bash
-npm install 
+npm install -g prettier
 ```
+where the option '-g' tells npm to install this package globally.
+> [!NOTE]
+> It is also recommended to install ESLinter
+
 3. Define your Schema:
 4. Implement Resolvers:
 5. Start the Server:
