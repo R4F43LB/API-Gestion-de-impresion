@@ -37,5 +37,4 @@ where the option '-g' tells npm to install this package globally.
 4. Implement Resolvers:
 5. Start the Server:
 6. Run the Server:
-7. Further Development:
-   
+7. Further Development:   
