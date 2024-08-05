@@ -82,9 +82,7 @@ where the option '-g' tells npm to install this package globally.
     DEST_INMUEBLE: String
     DEST_ZONA_POSTAL: String
     STATUS_LICENSE: [Status!]
-    """
     CANCEL_PRINT: Boolean
-    """
     createdAt: DateTime!
     updatedAt: DateTime!
     CUSTOMER: User!
@@ -161,6 +159,7 @@ where the option '-g' tells npm to install this package globally.
 
     signIn(username: String, email: String, password: String!): String!
   }
+
 ```
 
 4. Implement Resolvers:
