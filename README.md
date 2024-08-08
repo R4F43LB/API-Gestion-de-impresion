@@ -16,7 +16,7 @@ This repository provides a step-by-step guide to set up a GraphQL web service us
 * Basic understanding of GraphQL concepts (queries, mutations, schemas).
 
 ## Getting Started:
-1. Clone the repository:
+1. **Clone the repository**:
 ```bash
 git clone https://github.com/R4F43LB/Print-Management-API.git
 ```
@@ -24,7 +24,7 @@ git clone https://github.com/R4F43LB/Print-Management-API.git
 ```bash
 cd Print-Management-API
 ```
-2. Install dependencies:
+2. **Install dependencies**:  
 The code was formatted with Prettier and it is highly recommended installing globally
 ```bash
 npm install -g prettier
@@ -33,7 +33,7 @@ where the option '-g' tells npm to install this package globally.
 > [!NOTE]
 > It is also recommended to install ESLinter
 
-3. Define your Schema:
+3. **Define your Schema**:
 ```javascript
   scalar DateTime
   
@@ -161,7 +161,9 @@ where the option '-g' tells npm to install this package globally.
   }
 
 ```
-4. Implement Resolvers:
+4. **Implement Resolvers**:  
+A resolver is a function that is responsible for providing the data for a specific field in the schema. Whenever a client makes a query that requests a field, the corresponding resolver is triggered to fetch and return the requested data.
+```javascript
 // by Rafael Balestrini 25/11/2020
 // This file combine our resolvers into a single JavaScript module. While this isn’t
 // strictly necessary, it's a good pattern to follow as this application and its
@@ -178,7 +180,7 @@ module.exports = {
   License,
   DateTime: GraphQLDateTime
 };
-
-5. Start the Server:
-6. Run the Server:
-7. Further Development: 
+```
+5. **Start the Server**:
+6. **Run the Server**:
+7. **Further Development**: 
